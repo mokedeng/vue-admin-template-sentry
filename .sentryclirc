@@ -1,0 +1,7 @@
+[auth]
+token = e3189c303bf64578bc670cfc8e2509c8a8e1553c630f4d03bc233135c60f3f93
+
+[defaults]
+url = https://sentry.io
+org = zte-vw
+project = vue-admin-template
