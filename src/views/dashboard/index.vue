@@ -15,7 +15,9 @@ export default {
     ])
   },
   created() {
-    console.log(window.aaa.bbb())
+    const a = {}
+    console.log(a.name.name)
+    new Error('抛出错误')
   }
 }
 </script>
