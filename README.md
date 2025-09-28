@@ -8,6 +8,65 @@ English | [简体中文](./README-zh.md)
 
 **Live demo:** https://mokedeng.github.io/vue-admin-template-sentry/
 
+## Quick Start Guide
+
+### Prerequisites
+
+Make sure you have the following installed on your system:
+
+- **Node.js** (>= 8.9) - [Download here](https://nodejs.org/)
+- **npm** (>= 3.0.0) - Comes with Node.js
+- **Git** - [Download here](https://git-scm.com/)
+
+### Installation & Setup
+
+Follow these simple steps to get the project running locally:
+
+#### 1. Clone the Repository
+```bash
+git clone https://github.com/mokedeng/vue-admin-template-sentry.git
+cd vue-admin-template-sentry
+```
+
+#### 2. Install Dependencies
+```bash
+npm install
+```
+
+#### 3. Start Development Server
+```bash
+npm run dev
+```
+
+The application will automatically open in your browser at `http://localhost:9528`
+
+#### 4. Login Credentials
+Use the following default credentials to access the admin panel:
+- **Username:** admin
+- **Password:** any password (mock authentication)
+
+### Project Structure Overview
+
+```
+src/
+├── api/          # API request functions
+├── assets/       # Static assets (images, etc.)
+├── components/   # Reusable Vue components
+├── layout/       # Layout components (sidebar, navbar, etc.)
+├── router/       # Vue Router configuration
+├── store/        # Vuex store modules
+├── styles/       # Global styles and SCSS files
+├── utils/        # Utility functions
+└── views/        # Page components
+```
+
+### What's Next?
+
+- Explore the **Dashboard** to see the admin interface
+- Check out the **Table** and **Form** examples
+- Customize the layout and styling to match your needs
+- Add your own API endpoints in the `src/api/` directory
+
 ## Build Setup
 
 ```bash
